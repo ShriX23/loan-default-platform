@@ -22,3 +22,8 @@ jobs:
         run: python src/train.py
       - name: Run API Unit Tests
         run: pytest app/test_main.py
+      - name: Run API Unit Tests
+        run: pytest app/test_main.py
+
+      - name: Build Docker Image
+        run: docker build -t loan-prediction-api .
