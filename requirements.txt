@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+xgboost
+mlflow
+great_expectations
+fastapi
+uvicorn
+pydantic
+pytest
+httpx
