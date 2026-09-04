@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+# Triggering CI/CD pipelinefrom fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import mlflow.xgboost
 import pandas as pd
